@@ -23,7 +23,7 @@
 - 🌱 Currently learning **JavaScript / TypeScript** and modern web dev
 - 🛠️ Side projects: money tracking app, FiveM duty systems, web shops
 - 💬 Ask me about **FiveM scripting, NUI, GTA RP servers**
-- 📫 Discord: **`your_discord_username`**
+- 📫 Discord: **`pondhu8`**
 
 ### 🧰 Tech stack
 
