@@ -1,60 +1,72 @@
-<!-- Header banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:e8b896&height=200&section=header&text=LNN%20DEV&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=FiveM%20Lua%20Developer&descAlignY=58&descSize=18" width="100%" alt="LNN DEV banner" />
-</p>
-
-<!-- Typing animation -->
-<p align="center">
-  <a href="https://github.com/pondntw">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=E8B896&center=true&vCenter=true&width=520&lines=Hi%2C+I'm+LNN+DEV+%F0%9F%91%8B;FiveM+%2F+ESX+Lua+Script+Developer;Learning+JavaScript+%26+TypeScript;Building+cool+stuff+for+GTA+RP+%F0%9F%9A%93" alt="Typing SVG" />
-  </a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:e8b896&height=180&section=header&text=LNN%20DEV&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Full%20Stack%20Developer%20%C2%B7%20TypeScript%20%C2%B7%20PostgreSQL&descAlignY=58&descSize=17" width="100%" alt="LNN DEV — Full Stack Developer" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=pondntw&style=flat-square&color=e8b896&label=Profile+views" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/pondntw?style=flat-square&color=e8b896&label=Followers" alt="Followers" />
+  📍 Bangkok, Thailand &nbsp;·&nbsp; 💼 Open to Junior Full Stack roles
 </p>
 
----
+## 👋 About me
 
-### 🧑‍💻 About me
+I build full stack web apps with **TypeScript, Next.js, NestJS and PostgreSQL** — from database schema and business rules to the UI, tests and deployment.
 
-- 🎮 Writing **FiveM** resources in **Lua** (ESX, ox_lib, oxmysql)
-- 🌱 Currently learning **JavaScript / TypeScript** and modern web dev
-- 🛠️ Side projects: money tracking app, FiveM duty systems, web shops
-- 💬 Ask me about **FiveM scripting, NUI, GTA RP servers**
-- 📫 Discord: **`pondhu8`**
+Before web development I spent several years writing **game server scripts for FiveM (GTA V roleplay)** in Lua. Those scripts run on live servers with real players, so I learned early to care about server-side validation, realtime updates, and keeping things configurable for non-developers.
 
-### 🧰 Tech stack
+- 🧱 I like putting business rules where they can't be bypassed — in the API or the database, not the browser
+- 🧪 I write tests for the logic that matters (order rules, fees, access control)
+- 🚀 Every project below has a live demo you can try
+
+## 🚀 Featured projects
+
+### 🛒 [Gaming Gear E-Commerce](https://github.com/pondntw/gaming-gear-ecommerce) &nbsp;·&nbsp; [Live demo](https://gaming-gear-ecommerce-web.vercel.app)
+Online store with a customer storefront and an admin back office. Team project (CSC481).
+- Next.js 15 frontend + **NestJS 11 REST API** + **Prisma** on Supabase PostgreSQL, in one monorepo
+- Cart → checkout → payment-slip upload → admin review → shipping, with an order state machine that restocks automatically on cancel
+- Admin dashboard for products, categories, stock, orders, users and reviews; unit tests with Jest
+- **My role:** built the NestJS API (auth, products, cart, orders, reviews, admin), the Next.js storefront, checkout and admin pages, wrote the unit tests, and set up deployment on Vercel
+
+`Next.js` `NestJS` `Prisma` `PostgreSQL` `Supabase Storage` `JWT` `Jest` `Vercel`
+
+### 🅿️ [Parking Membership System](https://github.com/pondntw/parking-membership) &nbsp;·&nbsp; [Live demo](https://parking-zeta-lilac.vercel.app)
+Staff app for managing parking members, vehicles, zones, packages, gate entry/exit, fees and payments.
+- Business rules live in **PostgreSQL** (SQL functions, views, Row Level Security) — the browser can't change times or amounts
+- Versioned migrations with the Supabase CLI
+- Unit tests with `node:test` against a real database, plus end-to-end tests with **Playwright**
+- **Demo mode runs the real migrations in the browser with PGlite**, so anyone can try it without an account or backend
+
+`React` `Vite` `PostgreSQL` `Supabase Auth` `RLS` `PGlite` `Playwright`
+
+### 💰 [MoneyFlow](https://github.com/pondntw/MoneyFlow)
+Personal finance dashboard: bank accounts, income/expense tracking, and a stock portfolio with live prices and USD/THB rates.
+- Next.js App Router with an API route that fetches live stock quotes
+- Supabase Auth + Postgres per-user data, Thai/English i18n, dark/light mode, charts with Recharts
+
+`Next.js` `React 19` `Tailwind CSS` `shadcn/ui` `Supabase` `Recharts`
+
+### 🎮 [lnn_alljob](https://github.com/pondntw/lnn_alljob) — FiveM resource
+Config-driven job system with a live leaderboard for GTA V roleplay servers.
+- Lua server/client + HTML/CSS/JS in-game UI (NUI) + MySQL
+- Leaderboard updates live while players are viewing it; hooks let server owners extend it without touching the core
+- Includes tests and a benchmark for the leaderboard
+
+`Lua` `ESX` `oxmysql` `JavaScript` `MySQL`
+
+## 🧰 Tech stack
+
+| | |
+|---|---|
+| **Frontend** | TypeScript, React, Next.js, Tailwind CSS, shadcn/ui |
+| **Backend** | Node.js, NestJS, REST APIs, JWT auth |
+| **Database** | PostgreSQL, Prisma, Supabase (Auth, RLS, Storage), MySQL |
+| **Testing** | Jest, node:test, Playwright |
+| **Tools** | Git, GitHub, Vercel, VS Code |
+| **Also** | Lua (FiveM / ESX), Java |
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=lua,js,ts,java,html,css,nodejs,react,nextjs,tailwind,mysql,git,github,vscode&perline=7" alt="Tech stack" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,nestjs,prisma,postgres,supabase,mysql,lua,git,vercel&perline=7" alt="Tech stack icons" />
 </p>
 
-### 📊 GitHub stats
+## 📫 Contact
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=pondntw&show_icons=true&hide_border=true&bg_color=0d1117&title_color=e8b896&icon_color=e8b896&text_color=c9d1d9&count_private=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pondntw&layout=compact&hide_border=true&bg_color=0d1117&title_color=e8b896&text_color=c9d1d9&langs_count=6" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=pondntw&hide_border=true&background=0d1117&ring=e8b896&fire=e8b896&currStreakLabel=e8b896&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" alt="GitHub streak" />
-</p>
-
-### 🐍 Contribution snake
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pondntw/pondntw/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pondntw/pondntw/output/github-snake.svg" />
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/pondntw/pondntw/output/github-snake-dark.svg" />
-  </picture>
-</p>
-
-<!-- Footer -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:e8b896,100:0d1117&height=110&section=footer" width="100%" alt="footer" />
-</p>
+- 💬 Discord: **`pondhu8`**
+- ✉️ Email: **[contact.nontawat@gmail.com](mailto:contact.nontawat@gmail.com)**
