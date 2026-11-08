@@ -1,4 +1,4 @@
-<h1 align="center">Hi there 👋, I'm Nontawat (LNN DEV)</h1>
+<h1 align="center">Hi there 👋, I'm Nontawat </h1>
 
 <p align="center">
   📍 Bangkok, Thailand &nbsp;·&nbsp; 💼 Open to Junior Full Stack roles
