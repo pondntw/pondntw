@@ -13,41 +13,6 @@ Before web development I spent several years writing **game server scripts for F
 - 🧪 I write tests for the logic that matters (order rules, fees, access control)
 - 🚀 Every project below has a live demo you can try
 
-## 🚀 Featured projects
-
-### 🛒 [Gaming Gear E-Commerce](https://github.com/pondntw/gaming-gear-ecommerce) &nbsp;·&nbsp; [Live demo](https://gaming-gear-ecommerce-web.vercel.app)
-Online store with a customer storefront and an admin back office. Team project (CSC481).
-- Next.js 15 frontend + **NestJS 11 REST API** + **Prisma** on Supabase PostgreSQL, in one monorepo
-- Cart → checkout → payment-slip upload → admin review → shipping, with an order state machine that restocks automatically on cancel
-- Admin dashboard for products, categories, stock, orders, users and reviews; unit tests with Jest
-- **My role:** built the NestJS API (auth, products, cart, orders, reviews, admin), the Next.js storefront, checkout and admin pages, wrote the unit tests, and set up deployment on Vercel
-
-`Next.js` `NestJS` `Prisma` `PostgreSQL` `Supabase Storage` `JWT` `Jest` `Vercel`
-
-### 🅿️ [Parking Membership System](https://github.com/pondntw/parking-membership) &nbsp;·&nbsp; [Live demo](https://parking-zeta-lilac.vercel.app)
-Staff app for managing parking members, vehicles, zones, packages, gate entry/exit, fees and payments.
-- Business rules live in **PostgreSQL** (SQL functions, views, Row Level Security) — the browser can't change times or amounts
-- Versioned migrations with the Supabase CLI
-- Unit tests with `node:test` against a real database, plus end-to-end tests with **Playwright**
-- **Demo mode runs the real migrations in the browser with PGlite**, so anyone can try it without an account or backend
-
-`React` `Vite` `PostgreSQL` `Supabase Auth` `RLS` `PGlite` `Playwright`
-
-### 💰 [MoneyFlow](https://github.com/pondntw/MoneyFlow)
-Personal finance dashboard: bank accounts, income/expense tracking, and a stock portfolio with live prices and USD/THB rates.
-- Next.js App Router with an API route that fetches live stock quotes
-- Supabase Auth + Postgres per-user data, Thai/English i18n, dark/light mode, charts with Recharts
-
-`Next.js` `React 19` `Tailwind CSS` `shadcn/ui` `Supabase` `Recharts`
-
-### 🎮 [lnn_alljob](https://github.com/pondntw/lnn_alljob) — FiveM resource
-Config-driven job system with a live leaderboard for GTA V roleplay servers.
-- Lua server/client + HTML/CSS/JS in-game UI (NUI) + MySQL
-- Leaderboard updates live while players are viewing it; hooks let server owners extend it without touching the core
-- Includes tests and a benchmark for the leaderboard
-
-`Lua` `ESX` `oxmysql` `JavaScript` `MySQL`
-
 ## 🧰 Tech stack
 
 | | |
