@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:e8b896&height=180&section=header&text=LNN%20DEV&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Full%20Stack%20Developer%20%C2%B7%20TypeScript%20%C2%B7%20PostgreSQL&descAlignY=58&descSize=17" width="100%" alt="LNN DEV — Full Stack Developer" />
-</p>
 
 <p align="center">
   📍 Bangkok, Thailand &nbsp;·&nbsp; 💼 Open to Junior Full Stack roles
